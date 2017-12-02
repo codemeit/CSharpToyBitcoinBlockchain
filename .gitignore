@@ -1,2 +1,5 @@
 
 *.manifest
+bin/Debug/CSharpToyBitcoinBlockchain.exe.config
+bin/Debug/CSharpToyBitcoinBlockchain.vshost.exe.config
+obj/Debug/CSharpToyBitcoinBlockchain.csproj.FileListAbsolute.txt
