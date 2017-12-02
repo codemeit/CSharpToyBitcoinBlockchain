@@ -1,4 +1,5 @@
-You may wonder how the mining works, this is the method tells the basic idea the condtition of 
+You may wonder how the mining works, this is the method telling the basic idea the condtition of mining.
+In a nutshell, you mined the block successfully if you found a hash with certain number of leading '0's in it.
 
      public void Mine(int difficulty)
      {
