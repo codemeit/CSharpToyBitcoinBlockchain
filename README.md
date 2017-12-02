@@ -1,3 +1,5 @@
+This is inspired by https://github.com/SavjeeTutorials/SavjeeCoin
+
 
 This simulates this node received a block from the P2P network
 and adding to the chain. Also you can break the validation rule
@@ -26,7 +28,7 @@ static void Main(string[] args)
 
 This block chain class defines how the block gets added to the chain.
 
- class Blockchain
+ public class Blockchain
  {
 
      List<Block> _chain;
@@ -80,7 +82,7 @@ This block chain class defines how the block gets added to the chain.
 
 This shows how the hash is computed and the condition for mining the block.
 
-class Block
+ public class Block
  {
      public int Index { get; set; }
      public string PreviousHash { get; set; }
